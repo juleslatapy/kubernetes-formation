@@ -22,9 +22,9 @@ spec:
     spec:
       containers:
       - name: example-app-1
-        image: example-app-1:0.0.2
+        image: example-app-1:0.0.1
         ports:
-        - containerPort: 5000
+        - containerPort: 6000
         volumeMounts:
         - name: config-volume
           mountPath: /configs/
