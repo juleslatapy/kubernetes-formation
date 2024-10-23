@@ -7,4 +7,4 @@ spec:
   image: docker.io/juleslatapy1/example-app-2
   interval: 1m0s
   secretRef:
-    name: my-key-2
+    name: my-key
