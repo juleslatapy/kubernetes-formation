@@ -9,4 +9,4 @@ spec:
     branch: develop-2
   url: https://github.com/juleslatapy/kubernetes-formation
   secretRef:
-    name: my-key-git
+    name: key-git
